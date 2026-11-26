@@ -64,7 +64,7 @@ Les cinq diagrammes réalisés sont :
 
 ### 🔗 Accéder aux cinq diagrammes UML
 
-**[CLIQUEZ ICI POUR CONSULTER LES CINQ DIAGRAMMES UML SUR LUCIDCHART](INSÉRER_ICI_LE_LIEN_UNIQUE_LUCIDCHART)**
+**[CLIQUEZ ICI POUR CONSULTER LES CINQ DIAGRAMMES UML SUR LUCIDCHART](https://lucid.app/lucidchart/be45ec81-93f5-40d7-af01-9c6f6e0ec248/edit?viewport_loc=-367%2C98%2C2536%2C1342%2C0_0&invitationId=inv_a855a1ba-a1cf-4ab7-83cb-ebc6f17863b6)**
 
 > Les cinq diagrammes sont regroupés dans un même document Lucidchart afin de faciliter leur consultation.
 
