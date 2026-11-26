@@ -75,7 +75,7 @@ Les cinq diagrammes réalisés sont :
 Ce projet constitue également une mise en application pratique des méthodes d'analyse, d'étude de faisabilité, de conception logicielle et de modélisation UML.
 
 
-# 🎯 Exercice bonus : Détermination du prix d'une chambre et du petit-déjeuner
+# 🎯 Exercice bonus : Résolution d'un problème par un système d'équations
 
 ## 1. Énoncé
 
@@ -85,22 +85,150 @@ Sachant que le petit-déjeuner coûte **120 euros de moins que la chambre**, dé
 
 ## 2. Travail demandé
 
-À partir des informations fournies dans l'énoncé :
+1. Identifier les deux inconnues.
+2. Traduire les informations de l'énoncé sous forme d'un système d'équations.
+3. Résoudre le système obtenu.
+4. Interpréter les résultats et donner le prix de chaque prestation.
 
-1. Identifier les deux inconnues du problème.
-2. Traduire les informations de l'énoncé sous forme d'un système de deux équations à deux inconnues.
-3. Résoudre le système obtenu en utilisant une méthode de résolution appropriée.
-4. Interpréter les résultats afin de déterminer le prix de la chambre et celui du petit-déjeuner.
+---
 
-## 3. Modélisation mathématique
+## 3. Solution détaillée
 
-On pose :
+### 3.1. Identification des inconnues
 
-- \(x\) : le prix de la chambre ;
-- \(y\) : le prix du petit-déjeuner.
+Posons :
 
-Le problème revient à déterminer les valeurs de \(x\) et \(y\) vérifiant les conditions données dans l'énoncé.
+- \(x\) : le prix de la chambre d'hôtel (en euros).
+- \(y\) : le prix du petit-déjeuner (en euros).
 
-## 4. Objectif pédagogique
+### 3.2. Mise en équations
 
-Cet exercice permet de mettre en pratique la modélisation d'un problème concret par un système d'équations linéaires à deux inconnues, ainsi que les méthodes de résolution associées.
+D'après l'énoncé, nous disposons de deux informations :
+
+**Première information :**
+
+Le prix de la chambre et celui du petit-déjeuner sont égaux à 160 euros lorsqu'on les additionne.
+
+\[
+x+y=160
+\]
+
+**Deuxième information :**
+
+Le petit-déjeuner coûte 120 euros de moins que la chambre.
+
+\[
+y=x-120
+\]
+
+On obtient donc le système suivant :
+
+\[
+\boxed{
+\begin{cases}
+x+y=160\\
+y=x-120
+\end{cases}
+}
+\]
+
+### 3.3. Résolution du système
+
+Nous allons utiliser la méthode de substitution.
+
+**Étape 1 :** À partir de la deuxième équation, exprimons \(y\) en fonction de \(x\).
+
+\[
+y=x-120
+\]
+
+**Étape 2 :** Remplaçons \(y\) dans la première équation.
+
+\[
+x+(x-120)=160
+\]
+
+Développons :
+
+\[
+2x-120=160
+\]
+
+\[
+2x=160+120
+\]
+
+\[
+2x=280
+\]
+
+D'où :
+
+\[
+\boxed{x=140}
+\]
+
+**Étape 3 :** Déterminons maintenant la valeur de \(y\).
+
+En utilisant :
+
+\[
+y=x-120
+\]
+
+On obtient :
+
+\[
+y=140-120
+\]
+
+\[
+\boxed{y=20}
+\]
+
+### 3.4. Vérification des résultats
+
+Vérifions que les valeurs trouvées satisfont les deux équations initiales.
+
+**Première équation :**
+
+\[
+x+y=160
+\]
+
+\[
+140+20=160
+\]
+
+L'égalité est vérifiée.
+
+**Deuxième équation :**
+
+\[
+y=x-120
+\]
+
+\[
+20=140-120
+\]
+
+L'égalité est également vérifiée.
+
+Les deux conditions de l'énoncé sont donc satisfaites.
+
+---
+
+## 4. Interprétation des résultats
+
+Les solutions obtenues sont :
+
+\[
+\boxed{x=140 \quad ; \quad y=20}
+\]
+
+Ainsi :
+
+- **Prix de la chambre d'hôtel : 140 €**
+- **Prix du petit-déjeuner : 20 €**
+
+Le montant total est bien de 160 euros et le petit-déjeuner coûte effectivement 120 euros de moins que la chambre.
