@@ -48,6 +48,8 @@ Cette dernière étape porte sur la conception technique de BikeGuard. Elle comp
 - La description des interactions entre les différents acteurs ;
 - La modélisation du système à travers cinq diagrammes UML.
 
+**Le document *UNSTIM_BIKEGUARD* donne les détails approfondis sur toutes les quatres étapes du projet**
+
 ## 3. 📐 Modélisation UML — Les cinq diagrammes
 
 La modélisation UML constitue une étape essentielle de la conception de BikeGuard. Elle permet de représenter les fonctionnalités, la structure, les comportements et l'organisation technique du système.
