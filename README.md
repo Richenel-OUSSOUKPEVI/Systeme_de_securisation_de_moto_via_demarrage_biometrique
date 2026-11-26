@@ -73,3 +73,34 @@ Les cinq diagrammes réalisés sont :
 À travers cette démarche, BikeGuard vise à proposer une conception cohérente d'un système de sécurisation des motos par authentification biométrique.
 
 Ce projet constitue également une mise en application pratique des méthodes d'analyse, d'étude de faisabilité, de conception logicielle et de modélisation UML.
+
+
+# 🎯 Exercice bonus : Détermination du prix d'une chambre et du petit-déjeuner
+
+## 1. Énoncé
+
+Une chambre d'hôtel et le petit-déjeuner coûtent ensemble **160 euros**.
+
+Sachant que le petit-déjeuner coûte **120 euros de moins que la chambre**, déterminer le prix de chacune des deux prestations.
+
+## 2. Travail demandé
+
+À partir des informations fournies dans l'énoncé :
+
+1. Identifier les deux inconnues du problème.
+2. Traduire les informations de l'énoncé sous forme d'un système de deux équations à deux inconnues.
+3. Résoudre le système obtenu en utilisant une méthode de résolution appropriée.
+4. Interpréter les résultats afin de déterminer le prix de la chambre et celui du petit-déjeuner.
+
+## 3. Modélisation mathématique
+
+On pose :
+
+- \(x\) : le prix de la chambre ;
+- \(y\) : le prix du petit-déjeuner.
+
+Le problème revient à déterminer les valeurs de \(x\) et \(y\) vérifiant les conditions données dans l'énoncé.
+
+## 4. Objectif pédagogique
+
+Cet exercice permet de mettre en pratique la modélisation d'un problème concret par un système d'équations linéaires à deux inconnues, ainsi que les méthodes de résolution associées.
