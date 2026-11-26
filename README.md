@@ -98,137 +98,92 @@ Sachant que le petit-déjeuner coûte **120 euros de moins que la chambre**, dé
 
 Posons :
 
-- \(x\) : le prix de la chambre d'hôtel (en euros).
-- \(y\) : le prix du petit-déjeuner (en euros).
+- x : le prix de la chambre d'hôtel (en euros).
+- y : le prix du petit-déjeuner (en euros).
 
 ### 3.2. Mise en équations
 
-D'après l'énoncé, nous disposons de deux informations :
+D'après l'énoncé :
 
-**Première information :**
-
-Le prix de la chambre et celui du petit-déjeuner sont égaux à 160 euros lorsqu'on les additionne.
-
-\[
-x+y=160
-\]
-
-**Deuxième information :**
-
-Le petit-déjeuner coûte 120 euros de moins que la chambre.
-
-\[
-y=x-120
-\]
+- La chambre et le petit-déjeuner coûtent ensemble 160 euros : x + y = 160.
+- Le petit-déjeuner coûte 120 euros de moins que la chambre : y = x - 120.
 
 On obtient donc le système suivant :
 
-\[
-\boxed{
-\begin{cases}
-x+y=160\\
-y=x-120
-\end{cases}
-}
-\]
+```text
+       x + y = 160
+       y = x - 120
+```
 
 ### 3.3. Résolution du système
 
 Nous allons utiliser la méthode de substitution.
 
-**Étape 1 :** À partir de la deuxième équation, exprimons \(y\) en fonction de \(x\).
+**Étape 1 :** Exprimons y en fonction de x à partir de la deuxième équation.
 
-\[
-y=x-120
-\]
+y = x - 120
 
-**Étape 2 :** Remplaçons \(y\) dans la première équation.
+**Étape 2 :** Remplaçons y dans la première équation.
 
-\[
-x+(x-120)=160
-\]
+x + (x - 120) = 160
 
-Développons :
+2x - 120 = 160
 
-\[
-2x-120=160
-\]
+2x = 160 + 120
 
-\[
-2x=160+120
-\]
+2x = 280
 
-\[
-2x=280
-\]
+x = 280 / 2
 
-D'où :
+**Donc : x = 140 euros.**
 
-\[
-\boxed{x=140}
-\]
+**Étape 3 :** Calculons le prix du petit-déjeuner.
 
-**Étape 3 :** Déterminons maintenant la valeur de \(y\).
+y = x - 120
 
-En utilisant :
+y = 140 - 120
 
-\[
-y=x-120
-\]
-
-On obtient :
-
-\[
-y=140-120
-\]
-
-\[
-\boxed{y=20}
-\]
+**Donc : y = 20 euros.**
 
 ### 3.4. Vérification des résultats
 
-Vérifions que les valeurs trouvées satisfont les deux équations initiales.
+Vérifions les deux conditions de l'énoncé.
 
-**Première équation :**
+**Première condition :**
 
-\[
-x+y=160
-\]
+Prix de la chambre + Prix du petit-déjeuner = 160
 
-\[
-140+20=160
-\]
+140 + 20 = 160
 
-L'égalité est vérifiée.
+La première condition est vérifiée.
 
-**Deuxième équation :**
+**Deuxième condition :**
 
-\[
-y=x-120
-\]
+Prix de la chambre - Prix du petit-déjeuner = 120
 
-\[
-20=140-120
-\]
+140 - 20 = 120
 
-L'égalité est également vérifiée.
+La deuxième condition est également vérifiée.
 
-Les deux conditions de l'énoncé sont donc satisfaites.
+Les résultats sont donc corrects.
 
 ---
 
 ## 4. Interprétation des résultats
 
-Les solutions obtenues sont :
+Nous avons obtenu :
 
-\[
-\boxed{x=140 \quad ; \quad y=20}
-\]
+- Prix de la chambre d'hôtel : **140 euros**.
+- Prix du petit-déjeuner : **20 euros**.
 
-Ainsi :
+Le montant total est bien de 160 euros et la différence entre les deux prix est bien de 120 euros.
 
-- **Prix de la chambre d'hôtel : 140 €**
-- **Prix du petit-déjeuner : 20 €**
+---
 
-Le montant total est bien de 160 euros et le petit-déjeuner coûte effectivement 120 euros de moins que la chambre.
+## 6. Résumé des résultats
+
+| Désignation | Prix |
+|:---|---:|
+| Chambre d'hôtel | 140 € |
+| Petit-déjeuner | 20 € |
+| **Total** | **160 €** |
